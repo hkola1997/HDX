@@ -4636,18 +4636,6 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
-    <loginIpRanges>
-        <endAddress>3.216.108.92</endAddress>
-        <startAddress>3.216.108.92</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>20.20.20.20</endAddress>
-        <startAddress>10.10.10.10</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>200.200.200.200</endAddress>
-        <startAddress>49.204.31.220</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -7065,6 +7053,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>BotManageBotsTrainingData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>BulkMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
@@ -7305,6 +7297,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>HideReadByList</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ImportCustomObjects</name>
     </userPermissions>
     <userPermissions>
@@ -7318,6 +7314,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LifecycleManagementAPIUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7594,6 +7594,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>Packaging2Delete</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PreventClassicExperience</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
