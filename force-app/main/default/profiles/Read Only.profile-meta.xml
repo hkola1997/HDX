@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
@@ -4663,6 +4664,15 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
+    <loginHours n1:nil="true" />
+    <loginIpRanges>
+        <endAddress>200.200.200.200</endAddress>
+        <startAddress>100.100.100.100</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>201.201.201.201</endAddress>
+        <startAddress>200.200.200.200</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
