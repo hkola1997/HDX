@@ -4641,6 +4641,10 @@
         <startAddress>3.216.108.92</startAddress>
     </loginIpRanges>
     <loginIpRanges>
+        <endAddress>20.20.20.20</endAddress>
+        <startAddress>10.10.10.10</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
         <endAddress>200.200.200.200</endAddress>
         <startAddress>49.204.31.220</startAddress>
     </loginIpRanges>
@@ -7153,6 +7157,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>CreateLtngTempInPub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>CreatePackaging</name>
     </userPermissions>
     <userPermissions>
@@ -7602,6 +7610,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ResetPasswords</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
