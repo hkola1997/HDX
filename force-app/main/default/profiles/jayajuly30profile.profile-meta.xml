@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
-      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
-    <fullName>JayatestIpprofile</fullName>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jayajuly30profile</fullName>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
@@ -190,6 +189,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.HARITEXT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Industry</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -306,6 +310,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.narendrascheduledBP__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4635,7 +4644,6 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
-    <loginHours n1:nil="true" />
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -7053,10 +7061,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>BotManageBotsTrainingData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>BulkMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
@@ -7146,10 +7150,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateLtngTempFolder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateLtngTempInPub</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7297,10 +7297,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>HideReadByList</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ImportCustomObjects</name>
     </userPermissions>
     <userPermissions>
@@ -7314,10 +7310,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>LifecycleManagementAPIUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7481,10 +7473,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManagePackageLicenses</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
     <userPermissions>
@@ -7593,10 +7581,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PreventClassicExperience</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -7610,10 +7594,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ResetPasswords</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7766,10 +7746,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewFlowUsageAndFlowEventData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
