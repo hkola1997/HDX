@@ -8,11 +8,4 @@
         <value>Hii
 Hello</value>
     </labels>
-    <labels>
-        <fullName>alexcustomlabel</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>alexcustomlabel</shortDescription>
-        <value>Hi I am from India</value>
-    </labels>
 </CustomLabels>
