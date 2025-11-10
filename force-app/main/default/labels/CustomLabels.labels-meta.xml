@@ -14,4 +14,11 @@
         <shortDescription>Test Branch</shortDescription>
         <value>/bin/sh: syntax error: unexpected &quot;(&quot;</value>
     </labels>
+    <labels>
+        <fullName>Test_Shashi</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Shashi</shortDescription>
+        <value>Value 1</value>
+    </labels>
 </CustomLabels>
